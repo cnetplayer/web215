@@ -1,0 +1,262 @@
+1
+console.log(navigator.appCodeName);
+"Mozilla"
+
+2
+var friends = ["Amanda", "Wayne", "David”];
+
+3
+console.log(friends);
+["Amanda", "Wayne", "David"]
+
+4
+console.log(friends[1]);
+“Wayne”
+
+5
+friends.push(“Sam”);
+
+6
+console.log(friends[4]);
+undefined
+
+7
+friends.length;
+4
+
+8
+console.log(friends[3]);
+“Sam”
+
+9
+function listFriends()
+{
+  for(i=0; i<friends.length; i++)
+  {
+    console.log(friends[i]);
+  }
+}
+
+10
+listFriends()
+"Amanda"
+"Wayne"
+"David"
+"Sam"
+
+11
+var myName = "Chris"
+undefined
+
+12
+myName
+"Chris"
+
+13
+var myAge = 39
+undefined
+
+14
+myAge
+39
+
+15
+myAge+1
+40
+
+16
+myName + " is " + myAge
+"Chris is 39”
+
+17
+var me={fName:"Chris", lName:"Willis", age:39};
+undefined
+
+18
+me.fName
+"Chris"
+
+19
+me.age
+39
+
+20
+me.fName+" is "+me.age
+"Chris is 39”
+
+21
+me.fName+" "+me.lName+" is "+me.age
+"Chris Willis is 39”
+
+22
+var driver=(me.age>18)?"Yes":"No";
+undefined
+
+23
+driver
+"Yes"
+
+24
+if (driver=="Yes"){var x="Congrats!";}else{var x="Soon enough";}
+undefined
+
+25
+x
+"Congrats!"
+
+26
+if (driver=="Yes" && myFName=="Chris"){var x="Congrats! " + myFName;}else{var x="Soon enough";}
+undefined
+
+27
+x
+"Congrats! Chris"
+
+28
+var bDay=myAge+1
+undefined
+
+29
+bDay
+40
+
+30
+myFName + " will be " + bDay + " on his birthday!"
+"Chris will be 40 on his birthday!"
+
+31
+console.log("Screen Width * Screen Height: " + screen.width + "*" + screen.height);
+"Screen Width * Screen Height: 2560*1440"
+
+32
+console.log("Screen Color Depth: " + screen.colorDepth);
+"Screen Color Depth: 24"
+
+33
+console.log("Screen Color Resolution: " + screen.pixelDepth);
+"Screen Color Resolution: 24"
+
+34
+console.log("Cookies enabled on your browser: " + navigator.cookieEnabled);
+"Cookies enabled on your browser: true"
+
+35
+console.log("The referrer of the current document is: " + document.referrer);
+"The referrer of the current document is: http://jsconsole.com/"
+
+36
+console.log("The full URL of the current document is: " + document.URL);
+"The full URL of the current document is: http://jsconsole.com/"
+
+37
+if (40 === 40)
+{
+	console.log("TRUE");
+}
+else
+{
+	console.log("FALSE");
+}
+"TRUE"
+
+38
+if (40 !== 40)
+{
+	console.log("TRUE");
+}
+else
+{
+	console.log("FALSE");
+}
+"FALSE"
+
+39
+if (40 > 40)
+{
+	console.log("TRUE");
+}
+else
+{
+	console.log("FALSE");
+}
+"FALSE"
+
+40
+if (40 < 40)
+{
+	console.log("TRUE");
+}
+else
+{
+	console.log("FALSE");
+}
+"FALSE"
+
+41
+if (40 <= 40)
+{
+	console.log("TRUE");
+}
+else
+{
+	console.log("FALSE");
+}
+"TRUE"
+
+42
+if ((40 === 40) && (40 < 40))
+{
+	console.log("TRUE");
+}
+else
+{
+	console.log("FALSE");
+}
+"FALSE"
+
+43
+if ((40 === 40) || (40 < 40))
+{
+	console.log("TRUE");
+}
+else
+{
+	console.log("FALSE");
+}
+"TRUE"
+
+44
+var number = 10;
+number++;
+10
+
+45
+number;
+11
+
+46
+--number;
+10
+
+47
+number--;
+10
+
+48
+number;
+9
+
+49
+40 % 2;
+0
+
+50
+if ((40 % 2) === 0)
+{
+console.log("TRUE");
+}
+else
+{
+console.log("FALSE");
+}
+"TRUE"

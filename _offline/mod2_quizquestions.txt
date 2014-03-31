@@ -1,0 +1,65 @@
+//Question 1
+::Q1::
+All function arguments in ECMAScript are passed by ______.
+{
+~reference
+#Incorrect. See Professional JavaScript for Web Developers > Chapter 4 > Argument Passing
+~type
+#Incorrect. See Professional JavaScript for Web Developers > Chapter 4 > Argument Passing
+~name
+#Incorrect. See Professional JavaScript for Web Developers > Chapter 4 > Argument Passing
+=value
+#Correct! See Professional JavaScript for Web Developers > Chapter 4 > Argument Passing
+}
+
+//Question 2
+::Q2::
+The value of a variable outside of a function is changed once passed to a function as an argument.
+{
+F
+#Incorrect. See Professional JavaScript for Web Developers > Chapter 4 > Argument Passing
+#Correct! See Professional JavaScript for Web Developers > Chapter 4 > Argument Passing
+}
+
+//Question 3
+::Q3::
+Given the following code, what will the output of alert(total);?\n
+function multiply(value1, value2) \{\n
+total \= value1 * value2;\n
+return total;\n
+\}\n
+multiply(2, 2);
+{
+~Error
+#Incorrect. See Professional JavaScript for Web Developers > Chapter 4 > Variable Declaration
+=4
+#Correct! See Professional JavaScript for Web Developers > Chapter 4 > Variable Declaration
+~”total”
+#Incorrect. See Professional JavaScript for Web Developers > Chapter 4 > Variable Declaration
+}
+
+//Question 4
+::Q4::
+Given the following code, what will the output of alert(total);?\n
+function multiply(value1, value2) \{\n
+var total \= value1 * value2;\n
+return total;\n
+\}\n
+multiply(2, 2);
+{
+=Error
+#Correct! See Professional JavaScript for Web Developers > Chapter 4 > Variable Declaration
+~4
+#Incorrect. See Professional JavaScript for Web Developers > Chapter 4 > Variable Declaration
+~”total”
+#Incorrect. See Professional JavaScript for Web Developers > Chapter 4 > Variable Declaration
+}
+
+//Question 5
+::Q5::
+A variable containing a reference value contains an object.
+{
+F
+#Incorrect. See Professional JavaScript for Web Developers > Chapter 4 > Argument Passing
+#Correct! See Professional JavaScript for Web Developers > Chapter 4 > Argument Passing
+}
